@@ -1,0 +1,1 @@
+import{r as t}from"./index-1f548d76.js";const a=s=>t.get("/song/detail",{params:{ids:s}}),e=s=>t.get("/simi/song",{params:{id:s}}),i=s=>t.get("/simi/playlist",{params:{id:s}});export{e as a,i as b,a as g};

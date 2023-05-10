@@ -1,0 +1,1 @@
+import{r}from"./index-1f548d76.js";const i=t=>r.get("/artist/detail",{params:{id:t}}),g=(t,s)=>r.get("/artist/sub",{params:{id:t,t:s}}),n=(t,s,a=24)=>r.get("/artist/album",{params:{id:t,limit:a,offset:s}}),o=(t,s,a=20)=>r.get("/artist/mv",{params:{id:t,limit:a,offset:s}}),m=t=>r.get("/artists",{params:{id:t}});export{m as a,n as b,i as c,o as g,g as s};
